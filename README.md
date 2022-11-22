@@ -15,7 +15,7 @@ main.py 실행
 ├── infer.py
 ├── main.py
 ├── model.py
-├── train.py
+└── train.py
 ```
 
 ### 실험 결과
