@@ -1,11 +1,7 @@
 # EncoderModel_Task
-# Untitled
-
 ## Masked Language Model 학습하기
-
 `AutoModelForMaskedLM`를 사용하여 모델 학습
-
-[main.py](http://main.py) 실행
+main.py 실행
 
 ### 폴더 경로
 
