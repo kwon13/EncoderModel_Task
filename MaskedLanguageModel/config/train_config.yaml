@@ -1,0 +1,28 @@
+path:
+  train_data_path: data/train.txt
+  val_data_path: data/val.txt
+
+model:
+  model_path: klue/roberta-small
+  max_len: 256
+  mask_ratio: 0.15
+
+train:
+  train_batch_size: 32
+  train_suffle: True
+  val_batch_size: 8
+  val_shffle: False
+  learning_rate: 1e-5
+  epochs: 5
+  seed : 42
+  device: cuda:3
+  saved_path: checkpoints
+  saved_name: saved_model
+
+logging:
+  project: masked prediction
+  entity: fiveflow
+  group: roberta
+  experiment_name: klue, small, 1e-5
+
+test: 다음은 상품에 대한 리뷰입니다. "이거 완전 좋은데?" 해당 리뷰의 감정은 [MASK]입니다.
