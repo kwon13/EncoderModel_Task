@@ -30,3 +30,8 @@ main.py 실행
 '>>> 다음은 상품에 대한 리뷰입니다. "이거 완전 좋은데?" 해당 리뷰의 감정은 순수입니다.'
 '>>> 다음은 상품에 대한 리뷰입니다. "이거 완전 좋은데?" 해당 리뷰의 감정은 그대로입니다.'
 ```
+### 다른 방법
+```
+!mkdir ./test-mlm
+!wget -O run_mlm.py https://raw.githubusercontent.com/huggingface/transformers/72aee83ced5f31302c5e331d896412737287f976/examples/pytorch/language-modeling/run_mlm.py
+```
